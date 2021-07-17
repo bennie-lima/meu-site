@@ -1,0 +1,16 @@
+{
+  "name": "meu-site",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface. It contains a Header, Home, About, Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact and Footer. Don't forget to join the channel for more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server . --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

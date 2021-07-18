@@ -412,7 +412,7 @@ img{
 
 /*==================== ABOUT ====================*/
 .about__img{
-    width: 200px;
+    /* width: 200px; */
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -541,7 +541,7 @@ img{
 }
 
 .skills__php{
-    width: 90%;
+    width: 70%;
 }
 
 .skills__node{
@@ -831,14 +831,6 @@ img{
     padding: 2rem 0 3rem;
 }
 
-/* .footer__title{
-    font-size: var(--h1-font-size);
-    margin-bottom: var(--mb-0-25);
-} */
-
-/* .footer__subtitle{
-    font-size: var(--small-font-size);
-} */
 .footer__img{
     width: 10rem;
 }
@@ -865,8 +857,6 @@ img{
     margin-top: var(--mb-3);
 }
 
-/* .footer__title,
-.footer__subtitle, */
 .footer__link,
 .footer__social,
 .footer__copy{

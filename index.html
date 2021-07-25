@@ -22,7 +22,7 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">
+                <a href="/" class="nav__logo">
                     <img src="assets/img/logo.svg">
                 </a>
 
@@ -583,22 +583,22 @@
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="nome" class="contact__label">Nome</label>
-                                <input type="text" name="nome" class="contact__input">
+                                <input type="text" required name="nome" class="contact__input">
                             </div>
 
                             <div class="contact__content">
                                 <label for="email" class="contact__label">Email</label>
-                                <input type="email" name="email" class="contact__input">
+                                <input type="email" required name="email" class="contact__input">
                             </div>
                         </div>
 
                         <div class="contact__content">
                             <label for="projeto" class="contact__label">Projeto</label>
-                            <input type="text" name="projeto" class="contact__input">
+                            <input type="text" required name="projeto" class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="mensagem" class="contact__label">Mensagem</label>
-                            <textarea name="mensagem" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea name="mensagem" required cols="0" rows="7" class="contact__input"></textarea>
                         </div>
                         
                         <input type="hidden" name="_gotcha">
@@ -668,5 +668,15 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+
+        <!--========== Global site tag (gtag.js) - Google Analytics =========-->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-M1GZL6YS90"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-M1GZL6YS90');
+        </script>
     </body>
 </html>

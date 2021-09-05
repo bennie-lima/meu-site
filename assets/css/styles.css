@@ -800,6 +800,7 @@ img{
     background-color: var(--input-color);
     border-radius: .5rem;
     padding: .75rem 1rem .25rem;
+    border: 1px solid #ccc;
 }
 
 .contact__label{
